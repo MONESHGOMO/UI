@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Home</title>
+</head>
+
+<body>
+
+    <CENTER>
+
+        <h1>Gomo Academy</h1>
+        <h4><b>Training| Tech Updates | Learn in public</b></h4>
+        <p>Empowering young devs to level up their tchnical explosure through practicing the concepts instead of
+            saying.🖥️</p>
+    </CENTER>
+    <HR>
+    <CENTER>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/E6jgEtj-UjI?si=w644vn6lPidhBDbe"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </CENTER>
+<P>CORS (Cross-Origin Resource Sharing) is a security feature that prevents unauthorized access to resources on different
+origins due to the Same-Origin Policy (SOP). It restricts web pages from making API requests unless the server includes
+the Access-Control-Allow-Origin header.</P> 
+<P>There are two types of requests: Simple Requests (GET, POST) and Preflight Requests (OPTIONS for PUT, DELETE). To fix
+CORS issues, backend solutions include setting proper CORS headers in Node.js (Express) using cors middleware or Spring
+Boot with @CrossOrigin. Frontend workarounds like proxies or browser extensions can help, but configuring CORS correctly
+on the server is the best practice.</P>
+
+
+<ul>Where we use CORS
+    <li>Spring Boot</li>
+    <li>Express.js</li>
+    <li>Django</li>
+</ul>
+
+<H1>EXPLANATION : </H1>
+<h3>Backend Technologies Supporting CORS</h3>
+<table  border="3">
+    <tr>
+        <th>Technology</th>
+        <th>Implementation</th>
+    </tr>
+    <tr>
+        <td>Spring Boot (Java)</td>
+        <td>Uses <code>@CrossOrigin</code> annotation or <code>CorsRegistry</code> in <code>WebMvcConfigurer</code>.
+        </td>
+    </tr>
+    <tr>
+        <td>Node.js (Express.js)</td>
+        <td>Uses the <code>cors</code> middleware (<code>npm install cors</code>).</td>
+    </tr>
+    <tr>
+        <td>Django (Python)</td>
+        <td>Uses <code>django-cors-headers</code> middleware (<code>CORS_ALLOWED_ORIGINS</code> in settings).</td>
+    </tr>
+    <tr>
+        <td>Flask (Python)</td>
+        <td>Uses <code>flask-cors</code> extension (<code>CORS(app)</code>).</td>
+    </tr>
+    <tr>
+        <td>ASP.NET Core (C#)</td>
+        <td>Uses <code>AddCors()</code> middleware in <code>Startup.cs</code>.</td>
+    </tr>
+    <tr>
+        <td>Ruby on Rails</td>
+        <td>Uses <code>rack-cors</code> gem for CORS configuration.</td>
+    </tr>
+    <tr>
+        <td>Laravel (PHP)</td>
+        <td>Uses middleware to modify CORS headers (<code>laravel-cors</code> package).</td>
+    </tr>
+</table>
+<br>
+<br>
+<h3>Frontend Workarounds for CORS Issues</h3>
+<table border="3"> 
+    <tr>
+        <th>Technology</th>
+        <th>Solution</th>
+    </tr>
+    <tr>
+        <td>React.js / Angular / Vue.js</td>
+        <td>Uses proxies (<code>proxy</code> in <code>package.json</code>) or fetch API with <code>mode: "cors"</code>.
+        </td>
+    </tr>
+    <tr>
+        <td>Browser Extensions</td>
+        <td>Temporary solutions like "Moesif CORS" or "Allow CORS" for debugging.</td>
+    </tr>
+    <tr>
+        <td>Nginx / Apache</td>
+        <td>Configuring response headers at the server level.</td>
+    </tr>
+</table>
+<br>
+<hr>
+
+<center>
+    <h2>TO know more register for the awesome session</h2>
+
+    <a href="register.html"><b>Register for the course</b></a>
+</center>
+
+</body>
+
+</html>
